@@ -9,6 +9,9 @@ from sklearn.impute import SimpleImputer
 x = np.linspace(-10, 10, 100)
 z = 1/(1+np.exp(-x))
 
+plt.title("Sigmoid Function")
 plt.plot(x, z, color='purple')
 plt.xlabel("x")
 plt.ylabel("sigmoid(x)")
+plt.show()
+
